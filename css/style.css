@@ -1,0 +1,124 @@
+body {
+  background-color: #ecf0f1;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+color: black;
+text-decoration: underline;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+}
+
+#intro {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#creative, #emotion, #fact, #process, #action, #discipline {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#emotion .button, #creative .button, #fact .button, #process .button, #action .button, #discipline .button { /*replaced my code using owl css below (but renamed it to my convention)*/
+  display: block;
+  height:30%;
+  padding: 30px 12px;
+  margin: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.breadcrumb>li+li:before {
+  padding: 0 5px;
+  color: #ecf0f1;
+  content: "\007C";} /*<a href="" class="text">s</a>onvert entities here: http://www.evotech.net/articles/testjsentities.html*/
+
+.breadcrumb>li {
+  display: inline-block;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #CFCFC6;
+  border-radius: 4px;
+}
+
+.attr {
+  border-top: 1px solid rgba(1, 1, 1, 0.2);
+  display: inline-block;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.attr-white {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.button:hover {
+  transform: scale(.98);
+  -webkit-transform: scale(.98);
+  -o-transform: scale(.98);
+  -moz-transform: scale(.98);
+}
+
+/*red*/
+.red-emotion5 {background: #ea6153;}
+.red-emotion4 { background: #d14233;}
+.red-emotion3 {background: #E74C3C;}
+.red-emotion2 { background: #C0392B;}
+.red-emotion {background:#e74c3c;}
+
+/*white*/
+.white-fact4  {background: #fbfcfc;}
+.white-fact3  {background: #cbd0d3;}
+.white-fact2  {background: #DBDBDB;}
+.white-fact {background:#fff;}
+
+/*black*/
+.black-process5 {background: #373738; color: #fff;}
+.black-process4 {background: #141714; color: #fff;}
+.black-process3 {background: #4A494A; color: #fff;}
+.black-process2 {background: #2E2D2E; color: #fff;}
+.black-process {background:#000; color: #fff;}
+
+/*yellow*/
+.yellow-action5 {background: #f2ca27;}
+.yellow-action4 {background: #f4a62a;}
+.yellow-action3{ background: #FCD848;}
+.yellow-action2 { background: #F39C12;}
+.yellow-action {background:#FCD848;}
+
+/*green*/
+.green-creative5 { background: #40d47e; }
+.green-creative4 { background: #2cc36b; }
+.green-creative3 { background: #2ECC71; }
+.green-creative2 { background: #27AE60; }
+.green-creative { background:#2ecc71; }
+
+/*blue*/
+.blue-discipline5 { background: #4aa3df;}
+.blue-discipline4 { background: #2e8ece;}
+.blue-discipline3 {background: #3498DB;}
+.blue-discipline2 { background: #2980B9;}
+.blue-discipline {background:#2980b9;}
